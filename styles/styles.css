@@ -1,6 +1,11 @@
-nav {
+* {
+    margin: 0;
+    padding: 0;
+} 
+nav{
     background-color: darkblue;
     padding: 10px;
+    box-sizing: border-box;
 }
 nav a {
     color: white;
@@ -26,7 +31,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.2);/* Light border */
+    border: 1px solid rgba(0 0 0/ 0.2);/* Light border */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -44,4 +49,12 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0/ 10%);
+    background-color: #ddd;
+    color: #000;
 }
