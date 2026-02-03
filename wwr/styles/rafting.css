@@ -125,3 +125,8 @@ nav, p, section, article {
     display: block;
     font-size: 1rem;
 }
+.team-box {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 150px;
+}
