@@ -56,6 +56,19 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
+.p {
+    color: var(--text-color);
+}
+button.primary {
+    background-color: var(--accent-color);
+    color: #0000ff;
+    border: none;
+}
+button.secondary {
+    background-color: var(--accent2-color);
+    color: #ff00ff;
+    border: none;
+}
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
