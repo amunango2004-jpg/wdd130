@@ -1,12 +1,15 @@
 :root {
-    --primary-color: #0550a05;
-    --secondary-color: #f4a261;
+    --primary-color: #255c99;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
-    --heading-font: Times New Roman, serif;
+    --accent2-color: #ffffff;
+    --heading-font: 'Trebuchet MS', sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 5%;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
@@ -25,7 +28,7 @@ header, main, footer {
 }
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #02a9f9;
 }
 nav, p, section, article {
     margin: 16px;
@@ -63,4 +66,28 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    gap: 30px;
+}
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 1.1rem;
 }
