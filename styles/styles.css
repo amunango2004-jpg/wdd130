@@ -21,6 +21,7 @@ h1 {
     border-bottom: 2px solid darkblue;
 }
 img {
+    float: none;
     max-width: 100%;
     height: auto;
     border: 1px solid black;
@@ -31,28 +32,77 @@ p {
     padding: 0px;
 }
 main {
-    grid-column: 2 / 3;
     margin: 1rem;
+    padding: 1rem;
 }
-.grid {
+.main-title {
+    text-align: center;
+    white-space: nowrap;
+}
+.main-content {
+    text-align: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.label {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transform:none; 
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 2px 6px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+.city-image {
+    text-align: center;
+}
+.content-grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: start;
+}
+.profile { 
+    text-align: center;
+}
+.profile-pic {
+width: 150px;
+ height: auto;
+  border-radius: 50%; 
+  display: block;
+    margin:0 auto;
+}
+
+.content-grid h1 {
+    text-align: center;
+    margin-bottom: 1rem;
 }
 aside {
     position: relative;
-    width: 20rem;
-    margin: 1rem;
+    width: 100%;
+    margin: 0;
     border: 1px solid rgba(0 0 0/ 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
 }
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    display: block;
 }
 aside h2 {
     position: absolute;
@@ -73,6 +123,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 10px gray;
+    margin: 0 0 1rem 1rem;
 }
 footer {
     margin-top: 15px;
@@ -82,10 +133,12 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    padding: 1rem;
+    padding: 10px;
     border: 1px solid rgb(0 0 0/ 10%);
+    border-radius: 8px;
     background-color: #ddd;
     color: #000;
+    text-align: center;
 }
 header, .grid, footer {
     max-width: 840px;
