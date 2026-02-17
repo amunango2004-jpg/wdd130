@@ -1,0 +1,35 @@
+.table {
+    border-collapse: collapse;
+    width: 6000px;
+    margin: 40px auto;
+    border: 2px solid rgb(140, 140, 140);
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+thead {
+    background-color: rgb(0 0 0);
+    color: white;
+    font-weight: 700;
+}
+th {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 12px;
+    text-align: left;
+}
+td {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.th,  td {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.thead tr, tfoot tr {
+    background-color: rgb(0 0 0);
+    color: white;
+    font-weight: 700;
+}
