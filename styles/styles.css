@@ -26,6 +26,18 @@ main {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     margin-bottom: 20px;
 }
+nav {
+background-color: darkblue;
+padding: 10px;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    display: block;
+}
+h1 {
+    color: darkblue;
+}
 .temples {
     list-style: disc;
     padding: 20px;
@@ -78,6 +90,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid black;
+    box-shadow: 0 0 10px gray;
 }
 p {
     padding: 0;
