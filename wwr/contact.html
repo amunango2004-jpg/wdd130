@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting Company</title>
+    <meta name="description" content="Contact us for more information about our White Water Rafting for bookings, questions, or more information about our exciting river adventures.">
+    <meta name="author" content="Anselm Munango">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header class="logo">
+        <img src="images/logo.jpg" alt="White Rafting Water Logo">
+
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+    <section class="company-info">
+        <h2>White Water Rafting Company</h2>
+        <p>9611 River Road, Windhoek, Namibia.</p>
+        <p><strong>Phone:</strong><a href="tel:+264818136238">+264 81 813 6238</a></p>
+        <p><strong>Email:</strong><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+    </section>
+        <section class="contact-layout">
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29484.31772357686!2d17.03936!3d-22.521446400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sna!4v1771342592524!5m2!1sen!2sna" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    <div class="contact-form">
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <fieldset>
+            <legend>Purpose of Message:</legend>
+            <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+            <label><input type="radio" name="purpose" value="reservation"> Reservation Questions</label>
+            <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+            </fieldset>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <label class="checkbox"><input type="checkbox" name="subscribe"> Please Subscribe me to the monthly newsletter</label>
+
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+    </section>
+        <section class="employees">
+<h2>We Are Here To Serve You</h2>
+<div class="employee-cards">
+    <figure>
+        <img src="images/employee1.jpg" alt="John Doe">
+        <figcaption>John Doe - Senior Guide</figcaption>
+    </figure>
+    <figure>
+        <img src="images/employee2.jpg" alt="Jane Smith">
+        <figcaption>Jane Smith - Assistant Guide</figcaption>
+    </figure>
+    <figure>
+        <img src="images/employee3.jpg" alt="Michael Johnson">
+        <figcaption>Michael Johnson - River Specialist</figcaption>
+    </figure>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 White Water Rafting Company | Anselm Munango</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.jpg" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.jpg" alt="LinkedIn Icon"></a>
+         <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram icon"></a>
+        </nav>
+    </footer>
+</body>
+</html>
