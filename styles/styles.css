@@ -35,7 +35,7 @@ main {
     margin-bottom: 8px;
 }
 .temples a {
-    text-decoration: ;
+    text-decoration: none;
     color: #0066cc;
 }
 .temples a:hover {
