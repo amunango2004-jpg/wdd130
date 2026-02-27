@@ -5,28 +5,7 @@
     font-family: Arial, sans-serif;
 }
 main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
     max-width: 840px;
-}
-.grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: start;
-    gap: 20px;
-    margin-top: 40px;
-    padding: 2rem;
-}
-.profile {
-    text-align: right;
-}
-.profile img {
-    width: 180px;
-    height: auto;
-    border-radius: 50%;
-    border: 4px solid #ddd;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-    margin-bottom: 20px;
 }
 nav {
 background-color: darkblue;
@@ -40,36 +19,7 @@ nav a{
 h1 {
     color: darkblue;
 }
-.temples {
-    list-style: disc;
-    padding: 20px;
-    margin: 0;
-}
-.temples li{
-    margin-bottom: 8px;
-}
-.temples a {
-    text-decoration: none;
-    color: #0066cc;
-}
-.temples a:hover {
-    text-decoration: underline;
-}
-.body {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    background-color: #f9fafb;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.bio {
-    text-align: center;
-}
-.bio p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-aside {
+aside{
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
@@ -81,23 +31,6 @@ aside {
 aside img {
     max-width: 200px;
     height: auto;
-}
-.aside h2 {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 6px 12px;
-    border-radius: 5px;
-    font-size: 14px;
-}
-main img {
-    width: 150px;
-    height: auto;
-    border: 2px solid black;
-    box-shadow: 0 0 10px gray;
-    padding: 10px;
 }
 p {
     padding: 0;
