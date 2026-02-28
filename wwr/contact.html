@@ -21,7 +21,6 @@
     </header>
     <main>
         <h1>White Water Rafting Company</h1>
-    
         <p>9611 River Road, Windhoek, Namibia.</p>
         <p><strong>Phone:</strong><a href="tel:+264818136238">+264 81 813 6238</a></p>
         <p><strong>Email:</strong><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
@@ -30,20 +29,23 @@
         <form action="submit_form.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name">
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
 
-            <p>Preferred Contact Method:</p>
+            <p>Message Purpose:</p>
 
-<input type="radio" id="email" name="contact" value="email">
-<label for="email">Email</label>
+<input type="radio" id="general" name="contact" value="general">
+<label for="general">General Inquiry</label>
 
-<input type="radio" id="Phone" name="contact" value="Phone">
-<label for="Phone">Phone</label>
+<input type="radio" id="reservation" name="contact" value="reservation">
+<label for="reservation">Reservation Questions</label>
 
-<input type="radio" id="sms" name="contact" value="sms">
-<label for="sms">SMS</label>
+<input type="radio" id="website" name="contact" value="website">
+<label for="website">Website Suggestion</label>
 
-<label for="message">message:</label>
 <textarea id="message" name="message"></textarea>
+<label for="message">message:</label>
 
 <input type="checkbox" id="subscribe" name="subscribe">
 <label for="subscribe">Please subscribe me to the monthly newsletter</label>
