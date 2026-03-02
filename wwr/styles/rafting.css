@@ -185,7 +185,6 @@ main h1 {
     text-align: center;
 }
 main iframe, main form {
-    display: inline-block;
     vertical-align: middle;
     width: 25%;
     text-align: right;
@@ -202,14 +201,15 @@ main form {
     min-width: 300px;
 }
 main input, main textarea, main select {
-    width: 65%;
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    border: 1px solid #ccc;
 }
 main input[type="radio"] {
     width: auto;
-    margin-left: 27%;
+    margin-right: 10px;
 }
 main button[type="submit"] {
     background-color: darkblue;
